@@ -9,6 +9,7 @@ public class ActorPuas extends Actor {
 
     public ActorPuas(TextureRegion puas) {
         this.puas = puas;
+        setSize(puas.getRegionWidth(), puas.getRegionHeight());
     }
 
     @Override
